@@ -1,0 +1,9 @@
+#!/bin/bash
+#To view the day program
+echo"Enter the num to view day"
+read num
+case ${num} in
+0) echo "SUN";;
+1) echo "MON";;
+2) echo "TUE";;
+esac
